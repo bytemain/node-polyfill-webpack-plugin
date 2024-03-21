@@ -1,8 +1,8 @@
 {
-	"name": "node-polyfill-webpack-plugin",
-	"version": "3.0.0",
+	"name": "@bytemain/node-polyfill-webpack-plugin",
+	"version": "3.0.1",
 	"description": "Polyfill Node.js core modules in Webpack.",
-	"repository": "Richienb/node-polyfill-webpack-plugin",
+	"repository": "bytemain/node-polyfill-webpack-plugin",
 	"author": {
 		"name": "Richie Bendall",
 		"email": "richiebendall@gmail.com"
