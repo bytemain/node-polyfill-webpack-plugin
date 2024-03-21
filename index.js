@@ -55,6 +55,8 @@ module.exports = class NodePolyfillPlugin {
 			Buffer: [require.resolve('buffer/'), 'Buffer'],
 			console: require.resolve('console-browserify'),
 			process: require.resolve('process/browser'),
+			setImmediate: [require.resolve('timers-browserify'), 'setImmediate'],
+			clearImmediate: [require.resolve('timers-browserify'), 'clearImmediate'],
 		})));
 
 		compiler.options.resolve.fallback = {

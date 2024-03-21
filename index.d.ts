@@ -32,7 +32,9 @@ declare namespace NodePolyfillPlugin {
 		| 'url'
 		| 'util'
 		| 'vm'
-		| 'zlib';
+		| 'zlib'
+		| 'setImmediate'
+		| 'clearImmediate';
 
 	export type IncludeOptions = {
 		/**

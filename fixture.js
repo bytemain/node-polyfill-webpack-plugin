@@ -6,3 +6,7 @@ assert(true);
 console.clear();
 
 module.exports = Buffer.from('Hello World').toString();
+
+setImmediate(() => {
+	console.log('Hello');
+});
